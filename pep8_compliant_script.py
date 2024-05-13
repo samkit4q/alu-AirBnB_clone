@@ -10,6 +10,7 @@ import requests
 # Import local modules
 from utils import helper_function
 
+
 # Constants should be uppercase
 API_URL = "https://api.example.com"
 
@@ -51,6 +52,7 @@ def main():
 
     # Call a helper function from a separate module
     helper_function()
+
 
 # Ensure that the main function is called if this script is executed directly
 if __name__ == "__main__":
