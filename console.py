@@ -1,9 +1,4 @@
 #!/usr/bin/python3
-<<<<<<< HEAD
-"""The console for Airbnb project"""
-
-print("console")
-=======
 """Defines the HBnB console."""
 import cmd
 import re
@@ -212,4 +207,3 @@ class HBNBCommand(cmd.Cmd):
 
 if __name__ == "__main__":
     HBNBCommand().cmdloop()
->>>>>>> ba037eff8abe319bd8857b733616534b25a0a8ce
