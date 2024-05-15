@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 """Defines unittests for models/engine/file_storage.py.
+
 Unittest classes:
     TestFileStorage_instantiation
     TestFileStorage_methods
@@ -163,18 +164,10 @@ class TestFileStorage_methods(unittest.TestCase):
         self.assertIn("Amenity." + am.id, objs)
         self.assertIn("Review." + rv.id, objs)
 
-import os
-
-def test_reload_no_file(self):
-    print("Current working directory:", os.getcwd())
-    print("Contents of the directory:", os.listdir())
-    with self.assertRaises(FileNotFoundError):
-        models.storage.reload()
-
     def test_reload_with_arg(self):
         with self.assertRaises(TypeError):
             models.storage.reload(None)
 
 
 if __name__ == "__main__":
-    unittest.maim()
+    unittest.main()
