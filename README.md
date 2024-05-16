@@ -29,6 +29,6 @@ Here are some examples of how to use the command interpreter:
 - `all User`
 
 ## Authors
-- John Doe (@johndoe)
-- Jane Smith (@janesmith)
+- Ayomide Aderobe (a.aderoba@alustudent.com)
+- Kellia MUZIRA (k.muzira@alustudent.com)
 
